@@ -1,7 +1,7 @@
-cask "xpipe" do
+cask "xpipe-ptb" do
   arch arm: "arm64", intel: "x86_64"
-  version "9.1-2"
-  desc "Your entire server infrastructure at your fingertips"
+  version "9.1-3"
+  desc "XPipe PTB (Public Test Build)"
   homepage "https://xpipe.io"
   url "https://github.com/xpipe-io/xpipe-ptb/releases/download/#{version}/xpipe-installer-macos-#{arch}.pkg",
       verified: "github.com"
