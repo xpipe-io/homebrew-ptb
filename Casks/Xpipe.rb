@@ -1,4 +1,4 @@
-cask "xpipe-ptb" do
+cask "xpipe" do
   arch arm: "arm64", intel: "x86_64"
   version "9.1-3"
   desc "XPipe PTB (Public Test Build)"
