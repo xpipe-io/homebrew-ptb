@@ -1,11 +1,11 @@
 cask "xpipe-ptb" do
   arch arm: "arm64", intel: "x86_64"
-  version "11.0-19"
+  version "11.0-20"
   desc "XPipe PTB (Public Test Build)"
   homepage "https://xpipe.io"
   url "https://github.com/xpipe-io/xpipe-ptb/releases/download/#{version}/xpipe-installer-macos-#{arch}.pkg",
       verified: "github.com"
-  sha256 arm: "6217effc8c4288339c5eaa1ae01280b6b611d405f71a77e9cb3483ecad714879", intel: "f752f40d5949e0a737ce71cf641ca18f84f1e6d2178d62c2cb26aaaae6bb7390"
+  sha256 arm: "b7d4e3b449f8d8885b7ebcaa678b8200606427cd8830e18da680adb5326740b5", intel: "7ae8377ae1738c80e940a6906dfa040f3acf315cdf40e7030e3f05170f13ba96"
   name "XPipe PTB"
   auto_updates true
 
@@ -15,7 +15,6 @@ cask "xpipe-ptb" do
   end
 
   depends_on formula: "util-linux"
-  depends_on formula: "netcat"
 
   pkg "xpipe-installer-macos-#{arch}.pkg"
   uninstall script:  {
