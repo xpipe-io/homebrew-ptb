@@ -1,11 +1,11 @@
 cask "xpipe-ptb" do
   arch arm: "arm64", intel: "x86_64"
-  version "14.0-51"
+  version "14.0-52"
   desc "XPipe PTB (Public Test Build)"
   homepage "https://xpipe.io"
   url "https://github.com/xpipe-io/xpipe-ptb/releases/download/#{version}/xpipe-installer-macos-#{arch}.pkg",
       verified: "github.com"
-  sha256 arm: "5c363e8b15659a931acf1ac0e97cd174f04e1282e859fb1b85b7fa7be9682bc5", intel: "548e03dff22dcb41c209abdb8f0a516bd9d542f366cfb9f61b9b5a77eee89648"
+  sha256 arm: "6a83dcc631f1f01cb9f0067b58215ad6e86acae705b6a22f54560c2a4b8ff652", intel: "f9f6b2c39f64bffae70cca488620183a4dc94a211940dec0f7648570ba2d5b35"
   name "XPipe PTB"
   auto_updates true
 
